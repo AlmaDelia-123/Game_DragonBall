@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+body {
+    background-image: url('../img/fondos/fondo5.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Russo One', sans-serif;
+    color: #000000;
+}
+h1 {
+    color: #FFEB3B; /* Amarillo más brillante */
+    font-size: 6.5em;
+    margin-bottom: 30px;
+    text-shadow: 
+        5px 5px 0 #D32F2F, /* Sombra Roja más gruesa */
+        -5px -5px 0 #1976D2, /* Sombra Azul más gruesa */
+        0 0 20px rgba(255, 255, 255, 0.8), /* Brillo blanco extra */
+        0 0 40px rgba(255, 123, 0, 0.897); /* Brillo dorado de aura */
+    letter-spacing: 4px;
+    transform: skew(-25deg);
+    position: relative;
+    padding-bottom: 10px;
+}
+h2{
+  color: azure;
+  font-size: 4.5em;
+}
+hr{
+    color: aliceblue;
+}
+h3{
+  color: rgb(240, 241, 241);
+  font-size: 2.5em;
+}
+button {
+    background: black;
+    color: #00ffff;
+    border: 2px solid #00ffff;
+    padding: 12px 24px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 10px #fad504, 0 0 20px #8efd10;
+}
+
+
+#username_py1 {
+  background: rgb(241, 240, 240);
+  /* color: rgb(247, 10, 81); */
+  border: 2px solid rgb(247, 57, 98);
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+#username_py1:focus {
+  box-shadow: 0 0 10px rgb(250, 10, 62), 0 0 20px rgb(245, 9, 40);
+  border-color: rgb(241, 4, 35);
+}
+
+#username_py2 {
+  background: rgb(235, 232, 232);
+  color: rgb(4, 8, 8);
+  border: 2px solid #0ff;
+  border-radius: 10px;
+  padding: 10px 15px;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+#username_py2:focus {
+  box-shadow: 0 0 10px #0ff, 0 0 20px #0ff;
+  border-color: #0ff;
+}
+.shadow-line {
+  border: none;
+  height: 4px;
+  background-color: #ece90b;
+  box-shadow: 0 2px 6px rgba(209, 243, 18, 0.3);
+  border-radius: 2px;
+  margin: 20px 0;
+}
+
